@@ -44,10 +44,10 @@ A análise revelou uma **taxa de churn geral de 26.5%**. O perfil do cliente com
 
 Com base nos insights, foram propostas as seguintes ações para a Telecom X:
 
-1.  **Incentivar Contratos de Longo Prazo:** Criar campanhas para migrar clientes do plano "Mês a Mês" para contratos anuais, oferecendo benefícios.
-2.  **Otimizar o Serviço de Fibra Óptica:** Investigar os motivos da alta evasão entre os clientes de Fibra (preço, estabilidade, suporte) e atuar sobre os problemas.
-3.  **Modernizar Formas de Pagamento:** Oferecer incentivos para a migração de "Cheque Eletrônico" para métodos automáticos (Cartão de Crédito, Débito em Conta).
-4.  **Criar um Programa de Onboarding:** Desenvolver um programa de boas-vindas para os primeiros 3 meses, garantindo uma experiência inicial positiva para reduzir o churn precoce.
+1.  **Incentivar Contratos de Longo Prazo:** Criar campanhas para migrar clientes do plano "Mês a Mês" para contratos anuais.
+2.  **Otimizar o Serviço de Fibra Óptica:** Investigar os motivos da alta evasão entre os clientes de Fibra (preço, estabilidade, suporte).
+3.  **Modernizar Formas de Pagamento:** Oferecer incentivos para a migração de "Cheque Eletrônico" para métodos automáticos.
+4.  **Criar um Programa de Onboarding:** Desenvolver um programa de boas-vindas para os primeiros 3 meses para reduzir o churn precoce.
 
 ---
 
@@ -75,9 +75,7 @@ O projeto está organizado na seguinte estrutura de pastas para garantir a repro
 ## 🚀 Tecnologias Utilizadas
 
 * **Linguagem:** Python 3.9+
-* **Bibliotecas Principais:**
-    * **Pandas:** Para manipulação e tratamento dos dados.
-    * **Matplotlib & Seaborn:** Para visualização de dados e geração de gráficos.
+* **Bibliotecas Principais:** Pandas, Matplotlib & Seaborn
 * **Ambiente:** Jupyter/Google Colab
 
 ---
@@ -88,8 +86,8 @@ Siga os passos abaixo para executar a análise em seu ambiente local.
 
 **1. Clone o Repositório**
 ```bash
-git clone <url-do-seu-repositorio>
-cd telecom-churn-analysis
+git clone [https://github.com/FabricioLimaa/ChallengeTelecomX-Alura.git](https://github.com/FabricioLimaa/ChallengeTelecomX-Alura.git)
+cd ChallengeTelecomX-Alura
 ```
 **2. Crie e Ative um Ambiente Virtual**
 ```bash
@@ -103,6 +101,12 @@ O arquivo requirements.txt contém todas as bibliotecas necessárias.
 pip install -r requirements.txt
 ```
 
+**4. Execute o Notebook**
+Inicie o Jupyter Lab e navegue até a pasta notebooks/ para abrir o arquivo TelecomX_BR.ipynb.
+```bash
+jupyter lab
+```
+
 **<summary>Conteúdo do requirements.txt</summary>**
 ```bash
 pandas
@@ -111,22 +115,12 @@ seaborn
 jupyterlab
 ```
 
-**4. Execute o Notebook**
-Inicie o Jupyter Lab e navegue até a pasta notebooks/ para abrir o arquivo TelecomX_BR.ipynb.
-```bash
-jupyter lab
-```
-
 📓 Sobre o Notebook de Análise
 O arquivo TelecomX_BR.ipynb está dividido em seções claras e sequenciais:
-
-📌 Extracão: Conecta-se à fonte de dados e carrega os dados brutos.
-
-🔧 Transformação: Executa todo o processo de limpeza, tratamento de inconsistências e engenharia de atributos.
-
-📊 Carga e análise: Realiza a análise exploratória, gerando estatísticas e gráficos para identificar padrões.
-
-📄 Relatorio Final: Apresenta um resumo consolidado do trabalho, com as conclusões e recomendações.
+* 📌 Extracão: Conecta-se à fonte de dados e carrega os dados brutos.
+* 🔧 Transformação: Executa todo o processo de limpeza, tratamento de inconsistências e engenharia de atributos.
+* 📊 Carga e análise: Realiza a análise exploratória, gerando estatísticas e gráficos para identificar padrões.
+* 📄 Relatorio Final: Apresenta um resumo consolidado do trabalho, com as conclusões e recomendações.
 
 📝 Licença
 Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
