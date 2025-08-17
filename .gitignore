@@ -1,0 +1,13 @@
+Ambientes Virtuais
+venv/
+*.env
+
+Caches do Python
+pycache/
+*.pyc
+
+Caches do Jupyter Notebook
+.ipynb_checkpoints/
+
+Arquivos de Sistema
+.DS_Store
