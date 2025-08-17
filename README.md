@@ -86,7 +86,7 @@ Siga os passos abaixo para executar a análise em seu ambiente local.
 
 **1. Clone o Repositório**
 ```bash
-git clone [https://github.com/FabricioLimaa/ChallengeTelecomX-Alura.git](https://github.com/FabricioLimaa/ChallengeTelecomX-Alura.git)
+git clone https://github.com/FabricioLimaa/ChallengeTelecomX-Alura.git
 cd ChallengeTelecomX-Alura
 ```
 **2. Crie e Ative um Ambiente Virtual**
