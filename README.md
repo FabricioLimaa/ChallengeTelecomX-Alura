@@ -55,24 +55,33 @@ Com base nos insights, foram propostas as seguintes ações para a Telecom X:
 
 O projeto está organizado na seguinte estrutura de pastas para garantir a reprodutibilidade:
 🌳 telecom-churn-analysis/
-│
-├── 📂 data/
-│   ├── 📁 processed/
-│   │   └── 📊 churn_telecom_tratado.csv
-│   └── 📁 raw/
-│       └── 💾 TelecomX_Data.json
-│
-├── 📂 notebooks/
-│   └── 🐍 TelecomX_BR.ipynb
-│
-├── 📂 reports/
-│   └── 🖼️ images/
-│       ├── churn_por_contrato.png
-│       └── ...
-│
-├── ⚙️ .gitignore
-├── 📄 README.md
-└── 📋 requirements.txt
+|
+|--- 📂 data/
+|    |  
+|    |--- 📁 processed/
+|    |    |
+|    |    +-- 📊 churn_telecom_tratado.csv
+|    |
+|    +-- 📁 raw/
+|         |
+|         +-- 💾 TelecomX_Data.json
+|
+|--- 📂 notebooks/
+|    |
+|    +-- 🐍 TelecomX_BR.ipynb
+|
+|--- 📂 reports/
+|    |
+|    +-- 🖼️ images/
+|         |
+|         +-- churn_por_contrato.png
+|         +-- ...
+|
+|--- ⚙️ .gitignore
+|
+|--- 📄 README.md
+|
++-- 📋 requirements.txt
 
 ---
 
