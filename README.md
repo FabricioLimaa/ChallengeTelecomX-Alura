@@ -119,13 +119,13 @@ Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes
 
 >### **Principais Melhorias:**
 
-1.  **Badges Visuais:** Adicionei selos no topo para status, versão do Python, bibliotecas e licença, dando um ar mais profissional.
-2.  **Índice Navegável:** Criei um índice clicável que permite ao usuário pular diretamente para a seção de interesse.
-3.  **Destaque para Insights:** Movi as seções de "Principais Descobertas" e "Recomendações" para o topo, pois são as informações mais valiosas para quem visita o repositório.
-4.  **Uso de Emojis:** Adicionei emojis aos títulos para quebrar o texto e guiar o olhar do leitor.
-5.  **Blocos de Código Aprimorados:** Usei a sintaxe do Markdown para colorir os comandos `bash` e o conteúdo do arquivo `requirements.txt`.
-6.  **Elemento "Details":** O conteúdo do `requirements.txt` foi colocado dentro de uma tag `<details>`, que cria um menu "sanfona", deixando o README mais limpo.
-7.  **Seção de Licença:** Adicionei uma seção padrão de licença no final.
+>1.  **Badges Visuais:** Adicionei selos no topo para status, versão do Python, bibliotecas e licença, dando um ar mais profissional.
+>2.  **Índice Navegável:** Criei um índice clicável que permite ao usuário pular diretamente para a seção de interesse.
+>3.  **Destaque para Insights:** Movi as seções de "Principais Descobertas" e "Recomendações" para o topo, pois são as informações mais valiosas para quem visita o repositório.
+>4.  **Uso de Emojis:** Adicionei emojis aos títulos para quebrar o texto e guiar o olhar do leitor.
+>5.  **Blocos de Código Aprimorados:** Usei a sintaxe do Markdown para colorir os comandos `bash` e o conteúdo do arquivo `requirements.txt`.
+>6.  **Elemento "Details":** O conteúdo do `requirements.txt` foi colocado dentro de uma tag `<details>`, que cria um menu "sanfona", deixando o README mais limpo.
+>7.  **Seção de Licença:** Adicionei uma seção padrão de licença no final.
 
 
 
