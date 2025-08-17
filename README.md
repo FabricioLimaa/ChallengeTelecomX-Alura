@@ -54,35 +54,22 @@ Com base nos insights, foram propostas as seguintes ações para a Telecom X:
 ## 📂 Estrutura do Repositório
 
 O projeto está organizado na seguinte estrutura de pastas para garantir a reprodutibilidade:
+```bash
 🌳 telecom-churn-analysis/
-|
-|--- 📂 data/
-|    |  
+|--- 📂 data/ 
 |    |--- 📁 processed/
-|    |    |
-|    |    +-- 📊 churn_telecom_tratado.csv
-|    |
-|    +-- 📁 raw/
-|         |
-|         +-- 💾 TelecomX_Data.json
-|
+|         |-- 📊 churn_telecom_tratado.csv
+|    |-- 📁 raw/
+|         |-- 💾 TelecomX_Data.json
 |--- 📂 notebooks/
-|    |
-|    +-- 🐍 TelecomX_BR.ipynb
-|
+|    |-- 🐍 TelecomX_BR.ipynb
 |--- 📂 reports/
-|    |
-|    +-- 🖼️ images/
-|         |
-|         +-- churn_por_contrato.png
-|         +-- ...
-|
+|    |-- 🖼️ images/
+|         |-- churn_por_contrato.png
 |--- ⚙️ .gitignore
-|
 |--- 📄 README.md
-|
-+-- 📋 requirements.txt
-
+|-- 📋 requirements.txt
+```
 ---
 
 ## 🚀 Tecnologias Utilizadas
@@ -144,7 +131,7 @@ O arquivo TelecomX_BR.ipynb está dividido em seções claras e sequenciais:
 📝 Licença
 Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
->### **Principais Melhorias:**
+### **Principais Melhorias:**
 
 >1.  **Badges Visuais:** Adicionei selos no topo para status, versão do Python, bibliotecas e licença, dando um ar mais profissional.
 >2.  **Índice Navegável:** Criei um índice clicável que permite ao usuário pular diretamente para a seção de interesse.
