@@ -77,19 +77,19 @@ Siga os passos abaixo para executar a análise em seu ambiente local.
 git clone <url-do-seu-repositorio>
 cd telecom-churn-analysis
 ```
-**2. Crie e Ative um Ambiente Virtual
+**2. Crie e Ative um Ambiente Virtual**
 ```bash
 python -m venv venv
 source venv/bin/activate  # No Windows: venv\Scripts\activate
 ```
 
-**3. Instale as Dependências
+**3. Instale as Dependências**
 O arquivo requirements.txt contém todas as bibliotecas necessárias.
 ```bash
 pip install -r requirements.txt
 ```
 
-**<summary>Conteúdo do requirements.txt</summary>
+**<summary>Conteúdo do requirements.txt</summary>**
 ```bash
 pandas
 matplotlib
@@ -97,7 +97,7 @@ seaborn
 jupyterlab
 ```
 
-4. Execute o Notebook
+**4. Execute o Notebook**
 Inicie o Jupyter Lab e navegue até a pasta notebooks/ para abrir o arquivo TelecomX_BR.ipynb.
 ```bash
 jupyter lab
@@ -116,8 +116,8 @@ O arquivo TelecomX_BR.ipynb está dividido em seções claras e sequenciais:
 
 📝 Licença
 Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
-```bash
-### **Principais Melhorias:**
+
+>### **Principais Melhorias:**
 
 1.  **Badges Visuais:** Adicionei selos no topo para status, versão do Python, bibliotecas e licença, dando um ar mais profissional.
 2.  **Índice Navegável:** Criei um índice clicável que permite ao usuário pular diretamente para a seção de interesse.
@@ -126,7 +126,7 @@ Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes
 5.  **Blocos de Código Aprimorados:** Usei a sintaxe do Markdown para colorir os comandos `bash` e o conteúdo do arquivo `requirements.txt`.
 6.  **Elemento "Details":** O conteúdo do `requirements.txt` foi colocado dentro de uma tag `<details>`, que cria um menu "sanfona", deixando o README mais limpo.
 7.  **Seção de Licença:** Adicionei uma seção padrão de licença no final.
-```
+
 
 
 
