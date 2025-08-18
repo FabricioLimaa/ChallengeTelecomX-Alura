@@ -1,6 +1,6 @@
 # Análise e Predição de Evasão de Clientes (Churn) - Telecom X
 
-![Status](https://img-shields.io/badge/status-conclu%C3%ADdo-green)
+![Status](https://img-shields.io/badge/status-concluido-green)
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
 ![Libraries](https://img.shields.io/badge/Bibliotecas-Pandas%20%7C%20Scikit--learn-orange)
 ![License](https://img.shields.io/badge/Licen%C3%A7a-MIT-lightgrey)
